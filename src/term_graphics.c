@@ -27,6 +27,8 @@ int draw_triangle(int y){
 int draw_pyramid(int y){
 	for(int i = 0; i <= y; i++){
 		for(int j = 0; j < i; j++){
+			// TODO: append spaces to each row depending
+			// on the height of the pyramid
 			if(j % 2 == 0){
 				printf("%s", "*");
 			}
@@ -47,6 +49,6 @@ int main(){
 	printf("%s\n", "Result of triangle 15");
 	draw_triangle(15);
 	printf("%s\n", "Result of pyramid 3");
-	draw_pyramid(3);
+	draw_pyramid(13);
 	return 0;
 }
