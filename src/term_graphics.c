@@ -40,12 +40,6 @@ int draw_pyramid(int y){
 }
 
 int main(){
-	printf("Result of 5x5\n");
-	draw_rectangle(5, 5);
-	printf("Result of 3x2\n");
-	draw_rectangle(3, 2);
-	printf("%s\n", "Result of triangle 5");
-	draw_triangle(5);
 	printf("%s\n", "Result of triangle 15");
 	draw_triangle(15);
 	printf("%s\n", "Result of pyramid 3");
